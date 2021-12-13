@@ -6,13 +6,13 @@ let nota2 = Number (prompt("Ingrese su segunda nota"))
 let nota3 = Number (prompt("Ingrese su tercera nota"))
 let p = (parseFloat(nota1)+parseFloat(nota2)+parseFloat(nota3))/3;
 do{
-    nota1=parseInt(prompt("ingrese su primera nota de nuevo"))
+    nota1 = parseInt(prompt("ingrese su primera nota de nuevo"))
 } while (isNaN (nota1))
 do{
-    nota2=parseInt(prompt("ingrese su segunda nota de nuevo"))
+    nota2 = parseInt(prompt("ingrese su segunda nota de nuevo"))
 } while (isNaN (nota2))
 do{
-    nota3=parseInt(prompt("ingrese su tercera nota de nuevo"))
+    nota3 = parseInt(prompt("ingrese su tercera nota de nuevo"))
 } while (isNaN (nota3))
 
 alert("Su promedio es: "+ p)
