@@ -9,11 +9,11 @@ do{
     nota1=parseInt(prompt("ingrese su primera nota de nuevo"))
 } while (isNaN (nota1))
 do{
-    nota2=parseInt(prompt("ingrese su primera nota de nuevo"))
+    nota2=parseInt(prompt("ingrese su segunda nota de nuevo"))
 } while (isNaN (nota2))
 do{
-    nota2=parseInt(prompt("ingrese su primera nota de nuevo"))
-} while (isNaN (nota2))
+    nota3=parseInt(prompt("ingrese su tercera nota de nuevo"))
+} while (isNaN (nota3))
 
 alert("Su promedio es: "+ p)
 if (p>6){
