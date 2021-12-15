@@ -18,3 +18,4 @@ if (p>6){
 else{
     imgHtml.src = urlcaratriste
 }
+console.log(peso)
